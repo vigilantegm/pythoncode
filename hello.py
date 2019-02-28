@@ -109,3 +109,91 @@
 # s2 = 85
 # r = (s2-s1)/s1*100
 # print('{0}成绩提高了{1:.1f}%'.format('小明',r))
+
+#使用list和tuple
+#内置数据类型：list  可变有序表
+# classmates = ['Michael','Bob','Tracy']
+# classmates
+# len(classmates)  #用len()函数可以获得list元素的个数
+# classmates[0]
+# classmates[1]
+# classmates[2]   #最后一个元素的索引是len(classmates) - 1
+# classmates[3]
+# classmates[-1]  #最后一个元素
+# classmates[-2]
+# classmates[-3]
+# classmates[-4]
+# classmates.append('Adam')  #插到末尾
+# classmates.insert(1,'Jack') #插到指定位置
+# classmates.pop()             #删除list末尾元素     
+# classmates.pop(1)            #删除指定位置元素
+# classmates[1] = 'Sarah'      #赋值给对应的索引位置
+# L = ['Apple',123,True]     #list里面的元素的数据类型也可以不同
+# s = ['python','java',['asp','php'],'scheme']   #s[2]  二维数组
+# len(s)  #4
+# p = ['asp','php']   p[1]
+# s = ['python','java',p,'scheme']  s[2][1]
+# s[2][1]
+# L =  []   #空的list，长度为0
+# len(L)  
+
+# tuple 不可变有序表
+# classmate = ('Michael','Bob','Tracy')
+# t = (1,2)#当你定义一个tuple时，tuple的元素就必须被确定下来
+# t = ()   #空的tuple
+# t = (1)
+# t = (1,)#tuple的陷阱
+# tuple所谓的“不变”是说，tuple的每个元素，指向永远不变。
+# t = ('a','b',['A','B'])
+# t[2][0] = 'X'
+# t[2][1] = 'Y'
+
+# L = [
+    # ['Apple', 'Google', 'Microsoft'],
+    # ['Java', 'Python', 'Ruby', 'PHP'],
+    # ['Adam', 'Bart', 'Lisa']
+# ]
+# print(L[0][0])
+# print(L[1][1])
+# print(L[2][2])
+
+
+#条件判断
+age = 20
+if age >= 18:
+	print('your age is', age)
+	print('adult')
+	
+age = 3
+if age >=18:
+	print('your age is', age)
+	print('adult')
+else:
+	print('your age is', age)
+	print('teenager')
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
